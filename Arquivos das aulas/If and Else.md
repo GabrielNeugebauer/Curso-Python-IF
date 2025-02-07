@@ -6,8 +6,28 @@ if nota >= 6:
 else:
     print("Aluno reprovado")
 ```
-Há casos onde são necessárias mais de 2 opções. Nesse caso, basta encadearmos um if detro do outro:
-Exemplo: calcular horas de jogo:
+Há casos onde são necessárias mais de 2 opções. Nesse caso, basta encadearmos um if dentro do outro:
+Exemplo: Organize 3 números em ordem crescente:
 ```python
+n1 = int(input('Digite o primeiro numero: '))
+n2 = int(input('Digite o segundo numero: '))
+n3 = int(input('Digite o terceiro numero: '))
 
-```
+if (n1<n2 and n1<n3):
+    if (n2<n3):
+        print(f"A sequência em ordem crescente é: {n1}, {n2}, {n3}")
+    else:
+        print(f"A sequência em ordem crescente é: {n1}, {n3}, {n2}")
+else:                          
+    if (n2<n1 and n2<n3):
+        if (n1<n3):
+            print(f"A sequência em ordem crescente é: {n2}, {n1}, {n3}")
+        else:
+            print(f"A sequência em ordem crescente é: {n2}, {n3}, {n1}")
+    else:
+        if (n2<n1):
+            print(f"A sequência em ordem crescente é: {n3}, {n2}, {n1}")
+        else:
+            print(f"A sequência em ordem crescente é: {n3}, {n1}, {n2}")
+            ```
+            
