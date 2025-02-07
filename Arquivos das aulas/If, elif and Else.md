@@ -29,7 +29,7 @@ else:                          
             print(f"A sequência em ordem crescente é: {n3}, {n2}, {n1}")
         else:
             print(f"A sequência em ordem crescente é: {n3}, {n1}, {n2}")
-            ```
+```
  O código está funcional, porém há formas mais legíveis de escreve-lo, uma delas é utilizando o comando ***elif***, que mescla um else e um if encadeado, no mesmo comando. Utilizando elif, o código fica desta forma:
  ```python
 n1 = int(input('Digite o primeiro numero: '))
