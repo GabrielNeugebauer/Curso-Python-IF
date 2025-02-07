@@ -34,7 +34,7 @@ else:                          
 O código está funcional, porém há formas mais legíveis de escreve-lo, uma delas é utilizando o comando ***elif***, que mescla um else e um if encadeado, no mesmo comando. Utilizando elif, o código fica desta forma:
 
  ```python
-n1 = int(input('Digite o primeiro numero: '))
+ n1 = int(input('Digite o primeiro numero: '))
 n2 = int(input('Digite o segundo numero: '))
 n3 = int(input('Digite o terceiro numero: '))
 
